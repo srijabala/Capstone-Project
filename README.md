@@ -4,6 +4,17 @@
 
 ---
 
+## 🌐 Live Demo
+
+🔗 https://career-compass-22n1jng9q-venkata-sai-srija-bala-badruni.vercel.app
+
+---
+
+## 📂 GitHub Repository
+
+🔗 https://github.com/srijabala/CareerCompass-AI
+
+---
 # 📖 Overview
 
 CareerCompass AI is an AI-powered career guidance platform designed to help students, fresh graduates, and professionals understand how well their resumes align with today's job market.
@@ -142,10 +153,10 @@ Including:
 
 ## 🔒 Privacy First
 
-- No backend server
-- No cloud database
-- API keys secured using `.env`
-- Sensitive information never uploaded to GitHub
+- Frontend-only architecture built with React and Vite
+- User data is stored locally using browser Local Storage
+- API keys are managed securely through environment variables (`.env`)
+- Sensitive credentials are excluded from version control using `.gitignore`
 
 ---
 
@@ -160,6 +171,7 @@ Including:
 | Lucide React | Icons |
 | Google Gemini 2.5 Flash | AI Engine |
 | Local Storage | Persistent Data |
+| Vercel | Application Deployment |
 
 ---
 
@@ -219,13 +231,13 @@ Including:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/srijabala/Capstone-Project.git
+git clone https://github.com/srijabala/CareerCompass-AI.git
 ```
 
 Move into the project folder
 
 ```bash
-cd Capstone-Project
+cd CareerCompass-AI
 ```
 
 Install dependencies
@@ -251,7 +263,12 @@ Open:
 ```
 http://localhost:5173
 ```
+---
+## Deployment
 
+This application is deployed using **Vercel**.
+
+The live application can be accessed from the Live Demo section above.
 ---
 
 # 📁 Project Structure
@@ -310,4 +327,4 @@ Capstone Project • 2026
 
 This project was developed for educational and academic purposes as part of a capstone submission.
 
-© 2026 CareerCompass AI. All Rights Reserved.
+Developed as part of the Kaggle AI Agents Capstone Project (2026).
